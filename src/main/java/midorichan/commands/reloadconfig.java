@@ -13,7 +13,6 @@ public class reloadconfig implements CommandExecutor {
     public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args) {
         if (cmd.getName().equalsIgnoreCase("mlcreload")) {
             if (sender.hasPermission("midorilogin.command")) {
-                plugin.saveConfig();
                 plugin.reloadConfig();
                 plugin.config = plugin.getConfig();
                 sender.sendMessage(plugin.prefix + "Configを再読み込みしました");
