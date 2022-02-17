@@ -22,7 +22,8 @@ public class playerLogout implements Listener {
                     )
                     .replace("{PLAYER}", p.getName())
                     .replace("{UUID}", p.getUniqueId().toString())
-                    .replace("{DISPLAYNAME}", p.getDisplayName());
+                    .replace("{DISPLAYNAME}", p.getDisplayName())
+                    .replace("&", "§");
 
             e.setQuitMessage(m);
         } else {
@@ -32,7 +33,8 @@ public class playerLogout implements Listener {
                     )
                     .replace("{PLAYER}", p.getName())
                     .replace("{UUID}", p.getUniqueId().toString())
-                    .replace("{DISPLAYNAME}", p.getDisplayName());
+                    .replace("{DISPLAYNAME}", p.getDisplayName())
+                    .replace("&", "§");
 
             e.setQuitMessage(m);
         }
