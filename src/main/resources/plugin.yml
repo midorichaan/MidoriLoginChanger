@@ -1,0 +1,17 @@
+name: MidoriLoginChanger
+version: 1.0
+main: midorichan.LoginChanger
+api-version: 1.18
+author: midorichan
+website: https://twitter.com/Midorichaan2525
+
+commands:
+  mlcreload:
+    description: Reload the config
+    default: op
+
+permissions:
+  midorilogin.command:
+    description: /mlcreload command permission
+  midorilogin.admin:
+    description: admin permission

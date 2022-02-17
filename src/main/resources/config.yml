@@ -1,0 +1,9 @@
+#プレースホルダ
+#{PLAYER}: プレイヤー名
+#{UUID}: プレイヤーUUID
+#{DISPLAYNAME}: プレイヤーの表示名(nick)
+
+loginmessage: ""
+logoutmessage: ""
+admin-loginmessage: ""
+admin-logoutmessage: ""
